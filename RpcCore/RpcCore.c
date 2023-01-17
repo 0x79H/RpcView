@@ -302,7 +302,7 @@ VOID* __fastcall RpcCoreInit(BOOL bForce)
 			break;
 		}
 	}
-	if (!bFound) goto End;
+	// if (!bFound) goto End;
 	//
 	// Invoke CoInitialize, required by SHGetFileInfo
 	//
